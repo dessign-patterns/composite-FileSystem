@@ -19,7 +19,7 @@ public class File extends FileSystemComponent {
 
 	@Override
 	public void describe() {
-		System.out.println("File: "+this+"\nName: "+this.name+"\tType: "+this.type+"\n");
+		System.out.println(this.getClass()+"\nName: "+this.name+"\tType: "+this.type+"\n");
 	}
 	
 

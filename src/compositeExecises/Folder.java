@@ -14,9 +14,8 @@ public class Folder extends FileSystemComponent{
 
 	@Override
 	public void describe() {
-		System.out.println("File: "+this+
-				"\nName: "+this.name+"\tType: "+this.type+"\n"+
-				"\nSubComponents: |||"+"\n               vvv");
+		System.out.println(this.getClass()+
+				"\nName: "+this.name+"\tType: "+this.type+"\n");
 		if (subComponents.isEmpty()) {
 			System.out.println("No sub component");
 		}
